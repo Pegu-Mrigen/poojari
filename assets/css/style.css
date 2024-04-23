@@ -255,6 +255,8 @@ body {
   display: none;
 }
 
+
+
 .header-top-list,
 .header-top-list .social-list {
   display: flex;
@@ -334,6 +336,16 @@ body {
   color: var(--white);
   font-size: 40px;
 }
+.btnCall.has-before{
+  background-color: greenyellow;
+  color:green;
+ 
+}
+
+/* .spanCall{
+  display: block!important;
+  background-color: red!important;
+} */
 
 .navbar {
   position: absolute;
@@ -1060,6 +1072,10 @@ a.contact-link:is(:hover, :focus) {
 
   .nav-toggle-btn {
     display: none;
+  }
+  .btnCall {
+    display: none;
+    
   }
 
   .header-top {
